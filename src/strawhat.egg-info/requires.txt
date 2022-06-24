@@ -1,7 +1,0 @@
-jmespath
-six
-python-dateutil
-urllib3
-botocore
-s3transfer
-boto3
