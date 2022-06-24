@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "strawhat"
-version = "0.0.5"
+version = "0.1.0"
 description = "Wrapper module for aws boto3"
 readme = "README.md"
 authors = [{ name = "Mridul Ahluwalia", email = "ahluwaliamridul@gmail.com" }]
@@ -29,7 +29,7 @@ dependencies = [
 requires-python = ">=3.9"
 
 [tool.bumpver]
-current_version = "0.0.5"
+current_version = "0.1.0"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true
