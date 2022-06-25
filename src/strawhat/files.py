@@ -1,3 +1,4 @@
+import os
 import json
 
 # ------------------- File Management Funcs -------------------
@@ -31,3 +32,21 @@ def read_byte(file_name, file_path):
 def change_file_ext(file_name, extention):
     file_name_sans_ext = ".".join(file_name.split(".")[:-1])
     return ".".join([file_name_sans_ext, extention])
+
+
+def mkdir(dir):
+    """Creates a new folder
+
+    Parameters
+    ----------
+    dir : str
+        path to create a new folder
+
+    Returns
+    ----------
+    None
+
+    """
+
+    if not os.path.exists(dir):
+        os.makedirs(dir)

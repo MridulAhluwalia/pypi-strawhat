@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from strawhat.aws import AWS, Dynamodb
 
 # ------------------- Init -------------------
